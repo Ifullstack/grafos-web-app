@@ -1,0 +1,14 @@
+{
+  "name": "grafos-web-app",
+  "version": "1.0.0",
+  "description": "Esta es una Web App descriptiva de diversos  gráficos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "María",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

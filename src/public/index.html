@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app>
+<head>
+  <!-- Cabecera -->
+  <meta charset="UTF-8"/>
+  <title>Grafos</title>
+  
+  <!--************* Librerías Externas ************-->
+    <!--jQuery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <!--AngularJS-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+  />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--************* Mis Scripts ************-->
+    <script type="text/javascript" src="codigo.js"></script>
+    <link rel="stylesheet" href="estilo.css" 
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Representación de Grafos</h1>
+  <p>Elige el grafo a mostrar</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Grafo de conectividad anatómica (resonancia magnética estructural y por difusión) fRMI</h3>
+    </br>
+      <button type="button" class="btn btn-default btn-block" ><a href="grafoFmri.html" target="_blank">Pincha aquí</a></button>
+    </div>
+    <div class="col-sm-4">
+      <h3>Grafo de conectividad funcional (resonancia magnética funcional) DTI</h3>
+       </br>
+     <button type="button" class="btn btn-default btn-block"><a href="grafoDti.html" target="_blank">Pincha aquí</a></button>
+       </div>
+    <div class="col-sm-4">
+      <h3>Bioseñal. Grafo de conectividad a partir de bioseñales (magnetoencefalografía)</h3>
+      </br>        
+    <button type="button" class="btn btn-default btn-block"><a href="grafoMagneto.html" target="_blank">Pincha aquí</a></button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

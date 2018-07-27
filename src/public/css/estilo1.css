@@ -1,0 +1,25 @@
+h1 {
+	color: white;
+	font-family: arial;
+	text-align: center;
+}
+
+
+
+body {
+/* 	background-color: linear-gradient(white, green);	 */
+	background-color: #20B2AA;
+/* 	background: linear-gradient(rgba(0,255,0,0.2), rgba(0,255,0,1)); */
+	font-family: verdana;
+	text-align: center;
+}
+img {
+    border-radius: 20px;
+    padding: 5px;
+    height: 300px;
+    width:auto;
+}
+
+
+
+
