@@ -32,12 +32,29 @@
 
     <!--************* Mis Scripts ************-->
     <script type="text/javascript" src="codigo.js"></script>
-
+    <style>
+        #mynetwork {
+            margin-left: 240px;
+            height: 550px;
+        }
+        
+        body {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9f7f8+0,f9f7f8+100,ff3019+100,ff3019+100,ff3019+100,f9f7f8+100 */
+            background: #f9f7f8;
+            /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #f9f7f8 0%, #f9f7f8 100%, #ff3019 100%, #ff3019 100%, #ff3019 100%, #f9f7f8 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #f9f7f8 0%, #f9f7f8 100%, #ff3019 100%, #ff3019 100%, #ff3019 100%, #f9f7f8 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #f9f7f8 0%, #f9f7f8 100%, #ff3019 100%, #ff3019 100%, #ff3019 100%, #f9f7f8 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        }
+    </style>
 </head>
 
 <body>
 
-    <h2>Grafo de conectividad funcional (resonancia magnética funcional) DTI</h2>
+    <h2 class="text-center">Grafo de conectividad funcional (resonancia magnética funcional) DTI</h2>
 
     <div id="mynetwork"></div>
 
@@ -72,7 +89,8 @@
                 edges: {
                     width: 0.15,
                     color: {
-                        inherit: 'from'
+                        inherit: 'from',
+                        //hover: 'black'
                     },
                     smooth: {
                         type: 'continuous'
